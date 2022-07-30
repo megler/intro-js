@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link rel="stylesheet" href="./intro.js/example/assets/css/bootstrap.min.css">
+    <link href="./intro.js/example/assets/css/demo.css" rel="stylesheet">
+    <link rel="stylesheet" href="./intro.js/dist/introjs.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container-narrow">
+
+    <div class="masthead">
+      <ul class="nav nav-pills pull-right">
+        <li><a href="https://github.com/usablica/intro.js/tags"><i class='icon-black icon-download-alt'></i> Download</a></li>
+        <li><a data-hint="I'm Github" data-position="right" href="https://github.com/usablica/intro.js">Github</a></li>
+        <li><a data-hint="Tweet at me" data-position="right" href="https://twitter.com/usablica">@usablica</a></li>
+      </ul>
+      <h3 class="muted">
+        <span data-hint="Nice to meet you" data-position="bottom">Intro.js</span>
+      </h3>
+    </div>
+
+    <hr>
+
+    <div class="jumbotron">
+      <h1 data-hint="This is a tooltip!" data-hint-position="top-middle" data-position="top-right-aligned">Hints</h1>
+      <p class="lead">Add hints using <code>data-hint</code> attribute.</p>
+      <a class="btn btn-large btn-success" href="javascript:void(0);" onclick="javascript:introJs().addHints();">Add hints</a>
+    </div>
+
+    <hr>
+
+    <div class="row-fluid marketing">
+      <div class="span6">
+        <h4>Section One</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis augue a neque cursus ac blandit orci faucibus. Phasellus nec metus purus.</p>
+
+        <h4>Section Two</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis augue a neque cursus ac blandit orci faucibus. Phasellus nec metus purus.</p>
+
+        <h4>Section Three</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis augue a neque cursus ac blandit orci faucibus. Phasellus nec metus purus.</p>
+        </div>
+
+      <div class="span6">
+        <h4>Section Four</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis augue a neque cursus ac blandit orci faucibus. Phasellus nec metus purus.</p>
+
+        <h4>Section Five</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis augue a neque cursus ac blandit orci faucibus. Phasellus nec metus purus.</p>
+
+        <h4>Section Six</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis augue a neque cursus ac blandit orci faucibus. Phasellus nec metus purus.</p>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <button
+          type="button"
+          role="button"
+          data-hint="Left align"
+          data-hint-position="top-middle"
+          data-position="bottom"
+          class="btn btn-default">Left</button>
+        <button
+          type="button"
+          role="button"
+          data-hint="Middle align"
+          data-hint-position="top-middle"
+          data-position="bottom"
+          class="btn btn-default">Middle</button>
+        <button
+          type="button"
+          role="button"
+          data-hint="Right align"
+          data-hint-position="top-middle"
+          data-position="bottom"
+          class="btn btn-default">Right</button>
+      </div>
+  </div>
+      <script src="./intro.js/dist/intro.js"></script>
+      <script src="./script.js"></script>
+</body>
+</html>
