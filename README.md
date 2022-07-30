@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a very basic HTML/JS project using a custom IntroJS implementation. 
+This is a very basic HTML/JS project using a custom IntroJS implementation. This project focuses specifically on tip functionality. When tips are enabled, the screen will darken with tips on top of the darker overlay. Features under the overlay (links, buttons, etc) are disabled. Also, there is a "turn off hints" button on the overlay so tips can be toggled off and the user can go back to using the page normally.
 
 ## Installation
 
