@@ -22,3 +22,8 @@ This will like the filename, line number and comment. In this case, it will look
 This is a basic demo so there is some functionality I haven't worked on yet. Specifically, if you click the "Turn Off Hints" button to disable the overlay and turn off hints, in order to run/add hints to the page again, you'll need to refresh the page first.
 
 Also, in this specific implementation (again this is one of IJS's example templates), if you click a tip you will be presented with the tip modal and when you click "done" or whever the CTA is, that specific tip dot will disappear. So you can go to each tip, click, get the tip, click the CTA, and go to the next tip OR you can click the "Turn off Hints" button on the overlay and turn off all hints and return to using the page.
+
+## Things That Need To Be Addressed
+
+1. The "Turn off hints" button appears to be called in a for loop elsewhere in the code. Likely from the `hintswrapper` object. This needs to be investigated and corrected.
+2. Same as #1, but check to see if overlay is also being duplicated. I don't believe it is, but haven't checked.
